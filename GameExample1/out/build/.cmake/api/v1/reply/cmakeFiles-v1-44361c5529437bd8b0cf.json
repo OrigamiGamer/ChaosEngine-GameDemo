@@ -140,8 +140,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Dev/Src/ChaosProjects/Game/GameExample1/out/build",
-		"source" : "D:/Dev/Src/ChaosProjects/Game/GameExample1"
+		"build" : "D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/out/build",
+		"source" : "D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1"
 	},
 	"version" : 
 	{

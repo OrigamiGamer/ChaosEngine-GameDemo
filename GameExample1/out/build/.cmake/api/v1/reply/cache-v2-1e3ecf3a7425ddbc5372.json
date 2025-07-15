@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Dev/Src/ChaosProjects/Game/GameExample1/out/build"
+			"value" : "d:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/out/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Dev/Src/ChaosProjects/Game/GameExample1/out/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/out/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Dev/Src/ChaosProjects/Game/GameExample1"
+			"value" : "D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Dev/Src/ChaosProjects/Game/GameExample1/out/build"
+			"value" : "D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/out/build"
 		},
 		{
 			"name" : "GameExample1_IS_TOP_LEVEL",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Dev/Src/ChaosProjects/Game/GameExample1"
+			"value" : "D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1"
 		},
 		{
 			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",

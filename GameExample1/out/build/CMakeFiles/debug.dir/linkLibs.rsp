@@ -1,1 +1,1 @@
- -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LD:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Lib  -L"D:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/."  -lD2D1 -Wl,-Bstatic -lglfw3 -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
