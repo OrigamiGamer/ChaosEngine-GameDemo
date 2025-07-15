@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Dev/Src/ChaosProjects/Game/GameExample1/out/build",
+  "command": "D:\\Dev\\Env\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\debug.dir\\main.cpp.obj -c D:\\Dev\\Src\\ChaosProjects\\Game\\GameExample1\\main.cpp",
+  "file": "D:/Dev/Src/ChaosProjects/Game/GameExample1/main.cpp",
+  "output": "CMakeFiles/debug.dir/main.cpp.obj"
+}
+]
