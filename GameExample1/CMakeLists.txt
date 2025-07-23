@@ -1,13 +1,15 @@
 cmake_minimum_required(VERSION 3.10)
 
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED true)
+
 project(GameExample1 VERSION 0.1.0 LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED true)
+
 
 # includes
 
-set(CHAOS_ENGINE_ROOT "D:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine")
+set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine")
 
 set(INCLUDE_LIST
     ${CHAOS_ENGINE_ROOT}
@@ -15,15 +17,19 @@ set(INCLUDE_LIST
 )
 include_directories(${INCLUDE_LIST})
 
+
 # libraries
 
+
 set(LINK_LIST
-    "${CHAOS_ENGINE_ROOT}/Lib"
+    "${CHAOS_ENGINE_ROOT}/ExternalLibrary"
     .
 )
 link_directories(${LINK_LIST})
 
 link_libraries("D2D1.lib" "libglfw3.a")
+
+
 
 # targets
 

@@ -52,6 +52,12 @@
         "random": "cpp",
         "utility": "cpp",
         "ranges": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "chrono": "cpp",
+        "map": "cpp",
+        "ratio": "cpp",
+        "iomanip": "cpp",
+        "sstream": "cpp",
+        "cinttypes": "cpp"
     }
 }
