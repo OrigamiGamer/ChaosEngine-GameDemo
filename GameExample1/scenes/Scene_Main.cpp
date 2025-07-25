@@ -30,7 +30,7 @@ bool Scene_Main::onExiting()
         [CALL] Window -> Base::~Base()
         [CALL]
     */
-    // run and end the process, then you'll find something error: index(?) of vector is OVER size.
+    // run and end the process, then you'll find something error: index of vector is out of range(?).
     return true;
 }
 
