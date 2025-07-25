@@ -9,7 +9,7 @@ project(GameExample1 VERSION 0.1.0 LANGUAGES CXX)
 
 # includes
 
-set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine")
+set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine")    # Please rewrite by yourself
 
 set(INCLUDE_LIST
     ${CHAOS_ENGINE_ROOT}
@@ -33,5 +33,5 @@ link_libraries("D2D1.lib" "libglfw3.a")
 
 # targets
 
-add_executable(debug "main.cpp")
+add_executable(debug "game.cpp")
 set_target_properties(debug PROPERTIES OUTPUT_NAME "debug" SUFFIX ".exe")

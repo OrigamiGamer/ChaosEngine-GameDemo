@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/main.cpp" "CMakeFiles/debug.dir/main.cpp.obj" "gcc" "CMakeFiles/debug.dir/main.cpp.obj.d"
+  "F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/game.cpp" "CMakeFiles/debug.dir/game.cpp.obj" "gcc" "CMakeFiles/debug.dir/game.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

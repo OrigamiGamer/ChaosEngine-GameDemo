@@ -128,29 +128,29 @@ debug/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/build
 .PHONY : debug/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+game.obj: game.cpp.obj
+.PHONY : game.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/game.cpp.obj
+.PHONY : game.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+game.i: game.cpp.i
+.PHONY : game.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/main.cpp.i
-.PHONY : main.cpp.i
+game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/game.cpp.i
+.PHONY : game.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+game.s: game.cpp.s
+.PHONY : game.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/main.cpp.s
-.PHONY : main.cpp.s
+game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\debug.dir\build.make CMakeFiles/debug.dir/game.cpp.s
+.PHONY : game.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... debug
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... game.obj
+	@echo ... game.i
+	@echo ... game.s
 .PHONY : help
 
 
