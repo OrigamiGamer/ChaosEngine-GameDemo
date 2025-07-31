@@ -9,7 +9,7 @@ project(GameExample1 VERSION 0.1.0 LANGUAGES CXX)
 
 # includes
 
-set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine")    # Please rewrite by yourself
+set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine") # Please rewrite by yourself
 
 set(INCLUDE_LIST
     ${CHAOS_ENGINE_ROOT}

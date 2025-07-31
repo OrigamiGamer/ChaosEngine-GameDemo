@@ -3,6 +3,8 @@
 
 #include "game.h"
 
+
+
 #include "sources.cpp"
 
 
@@ -25,7 +27,7 @@ int main()
 void GameInit()
 {
     g_window.initialize();
-    
+
     g_stage.registerWindow(g_window);
     g_renderer.initialize(g_window);
 
@@ -34,6 +36,10 @@ void GameInit()
 
     g_stage.registerScene(g_mainScene);
     g_stage.switchScene("Main Scene");
+
+    // load images
+
+    std::cout << g_renderer.loadTextureFromImageFile("resources/images/bilibili_blessed_night.png")->name << std::endl;
 
 }
 
