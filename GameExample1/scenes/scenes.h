@@ -6,16 +6,17 @@
 
 
 
-class Scene_Main : public Chaos::InternalDevice::Scene {
+class MainScene : public Chaos::InternalDevice::Scene {
 public:
-    std::shared_ptr<Chaos::GraphicX::Viewport> viewport_1;
+    Chaos::GraphicX::Viewport* viewport_1;
+    Chaos::GraphicX::Viewport* viewport_2;
 
-    Scene_Main();
+    MainScene();
 
-    void onEntering();
+    void onEntered();
 
     bool onExiting();
 
     void update();
 
-} scene_main;
+} g_mainScene;

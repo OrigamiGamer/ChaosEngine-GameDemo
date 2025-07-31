@@ -9,15 +9,14 @@
 
 int main()
 {
-    engine.initialize();
-
-    engine.createWindow();
+    g_engine.initialize();
 
     Chaos::InternalDevice::EngineStartupProperty engineProp;
     engineProp.fps = 60;
     engineProp.onGameInit = &GameInit;
-    engine.start(&engineProp);
-    engine.release();
+    g_engine.start(&engineProp);
+    g_engine.release();
+
     return 0;
 }
 
@@ -25,10 +24,16 @@ int main()
 
 void GameInit()
 {
-    engine.createRenderer();
-    engine.createStage();
-    engine.stage->registerScene(scene_main);
-    engine.stage->switchScene("Main");
+    g_window.initialize();
     
+    g_stage.registerWindow(g_window);
+    g_renderer.initialize(g_window);
+
+    g_engine.registerStage(&g_stage);
+    g_engine.registerRenderer(&g_renderer);
+
+    g_stage.registerScene(g_mainScene);
+    g_stage.switchScene("Main Scene");
+
 }
 

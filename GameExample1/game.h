@@ -19,13 +19,16 @@
 
 // Game
 
-Chaos::InternalDevice::Engine engine;
+Chaos::WindowX::Window g_window;
+Chaos::GraphicX::Renderer g_renderer;
+Chaos::InternalDevice::Stage g_stage;
+Chaos::InternalDevice::Engine g_engine;
 
 int main();
 
 void GameInit();
 
-class Scene_Main;
+class MainScene;
 
 #include "scenes/scenes.h"
 
