@@ -12,8 +12,8 @@ project(GameExample1 VERSION 0.1.0 LANGUAGES CXX)
 set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine") # Please rewrite by yourself
 
 set(INCLUDE_LIST
-    ${CHAOS_ENGINE_ROOT}
     .
+    ${CHAOS_ENGINE_ROOT}
 )
 include_directories(${INCLUDE_LIST})
 
@@ -22,12 +22,12 @@ include_directories(${INCLUDE_LIST})
 # libraries
 
 set(LINK_LIST
-    "${CHAOS_ENGINE_ROOT}/ExternalLibrary"
     .
+    "${CHAOS_ENGINE_ROOT}/ExternalLibrary"
 )
 link_directories(${LINK_LIST})
 
-link_libraries("D2D1.lib" "libglfw3.a")
+link_libraries("D2D1.lib" "libglfw3.a" "OpenAL32.lib" "sndfile.lib")
 
 
 

@@ -13,7 +13,7 @@
 // ChaosEngine
 
 #include "ChaosEngine.h"
-#include "Definitions.cpp"
+#include "ChaosEngine.cpp"
 
 
 
@@ -27,6 +27,8 @@ Chaos::InternalDevice::Engine g_engine;
 int main();
 
 void GameInit();
+
+bool GameExit();
 
 class MainScene;
 

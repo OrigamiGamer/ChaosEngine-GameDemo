@@ -11,16 +11,12 @@ MainScene::MainScene() : Scene("Main Scene") {}
 void MainScene::onEntered()
 {
     this->viewport_1.viewPos = { 0,0 };
-    this->viewport_1.viewSize = { 500,500 };
-    this->viewport_1.size = { 500,500 };
+    this->viewport_1.viewSize = { 1280,720 };
+    this->viewport_1.size = { (float)g_window.size.x,(float)g_window.size.y };
 
-    this->viewport_2.viewPos = { 100,100 };
-    this->viewport_2.viewSize = { 500,500 };
-    this->viewport_2.size = { 500,500 };
-    this->viewport_2.pos = { 510,0 };
+    ::g_renderer.SetWorldSize(10000, 10000);
 
     ::g_renderer.registerViewport(this->viewport_1, "viewport_1");
-    ::g_renderer.registerViewport(this->viewport_2, "viewport_2");
 
     std::cout << "Scene 'Main' entered" << std::endl;
 }
@@ -37,6 +33,8 @@ bool MainScene::onExiting()
 
 void MainScene::update()
 {
+    this->viewport_1.size = { (float)g_window.size.x,(float)g_window.size.y };
+
     Chaos::GraphicX::RenderTask _task;
 
     _task.type = Chaos::GraphicX::RenderTaskType::Line;
@@ -49,16 +47,29 @@ void MainScene::update()
     ::g_engine.renderer->pushTask(_task);
 
     _task.type = Chaos::GraphicX::RenderTaskType::Texture;
-    _task.param = Chaos::GraphicX::RenderTaskParam_Texture(
-        { 50,50 },
-        ::g_renderer.getLoadedTexture("bilibili_blessed_night.png"),
-        { 1242 / 6, 1863 / 6 }
-    );
-    _task.order = 0.0F;
-    ::g_engine.renderer->pushTask(_task);
+    for (size_t i = 0; i < 1000; i++) {
+        _task.param = Chaos::GraphicX::RenderTaskParam_Texture(
+            { (float)(50 + 70 * i),(float)(50 + 50 * i) },
+            ::g_renderer.getLoadedTexture("bilibili_blessed_night"),
+            { 1242 , 1863 }
+        );
+        _task.order = (float)i;
+        ::g_engine.renderer->pushTask(_task);
+    }
 
-    static float _dx = 1;
-    this->viewport_2.viewPos.x -= _dx;
-    this->viewport_2.viewPos.y += _dx;  // updated: fixing out of range of world
+    static float _moveStep = 25;
+
+    if (g_window.getKeyState(Chaos::WindowX::VirtualKey::A)) {
+        this->viewport_1.viewPos.x -= _moveStep;
+    }
+    if (g_window.getKeyState(Chaos::WindowX::VirtualKey::D)) {
+        this->viewport_1.viewPos.x += _moveStep;
+    }
+    if (g_window.getKeyState(Chaos::WindowX::VirtualKey::W)) {
+        this->viewport_1.viewPos.y -= _moveStep;
+    }
+    if (g_window.getKeyState(Chaos::WindowX::VirtualKey::S)) {
+        this->viewport_1.viewPos.y += _moveStep;
+    }
 
 }
