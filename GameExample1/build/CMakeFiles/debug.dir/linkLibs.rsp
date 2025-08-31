@@ -1,0 +1,1 @@
+  -L"F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/."  -LF:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary  -lD2D1 -Wl,-Bstatic -lglfw3 -Wl,-Bdynamic -lOpenAL32 -lsndfile -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -19,4 +19,8 @@ public:
 
     void update();
 
+    void onHotkeyPressed(int virtualKey);
+
+    void onHotkeyPressed(std::string hotkeyName);
+
 } g_mainScene;

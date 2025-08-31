@@ -10,7 +10,7 @@ int main()
     g_engine.initialize();
 
     Chaos::InternalDevice::EngineStartupProperty engineProp;
-    engineProp.fps = 60;
+    engineProp.fps = 120;
     engineProp.onGameInit = &GameInit;
     engineProp.onGameExit = &GameExit;
     g_engine.start(&engineProp);
@@ -21,8 +21,9 @@ int main()
 
 
 
-OpenAL::AudioEngine audioEngine;
-OpenAL::AudioPlayer* audioPlayer;
+OpenAL::AudioEngine g_audioEngine;
+OpenAL::AudioPlayer* g_audioPlayer;
+OpenAL::Buffer* g_buffer_bgm = nullptr;
 
 void GameInit()
 {
@@ -42,18 +43,18 @@ void GameInit()
 
 
     // Audio Debug
-    audioEngine.initialize();
-    audioPlayer = audioEngine.createAudioPlayer();
+    g_audioEngine.initialize();
+    g_audioPlayer = g_audioEngine.createAudioPlayer();
 
-    OpenAL::Buffer* buffer_bgm = audioPlayer->loadAudioFile(Chaos::System::locate("/resources/audio/bgm2_low_dB.mp3"));
+    g_buffer_bgm = g_audioPlayer->loadAudioFile(Chaos::System::locate("/resources/audio/bgm2_low_dB.mp3"));
 
-    OpenAL::Source* source = audioPlayer->createSource();
-    source->pushBuffer(buffer_bgm);
-    source->play();
+    // OpenAL::Source* source = audioPlayer->createSource();
+    // source->pushBuffer(buffer_bgm);
+    // source->play();
 
-    source->setVolume(0.2);
+    // source->setVolume(0.1);
 
-    source->setTimeOffset(8 * 60 + 52);
+    // source->setTimeOffset(8 * 60 + 52);
 
 }
 
@@ -61,7 +62,7 @@ void GameInit()
 
 bool GameExit()
 {
-    audioEngine.release();
+    g_audioEngine.release();
 
     return true;
 }
