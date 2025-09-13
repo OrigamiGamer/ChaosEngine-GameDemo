@@ -12,8 +12,8 @@
 
 // ChaosEngine
 
-#include "ChaosEngine.h"
-#include "ChaosEngine.cpp"
+#include "ChaosEngine/Class/Class.h"
+#include "ChaosEngine/Source/Source.cpp"
 
 
 
