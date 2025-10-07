@@ -21,6 +21,8 @@ void MainScene::onEntered()
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::D, "move_right");
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::W, "move_up");
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::S, "move_down");
+    g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::R, "rotation_line");
+
 
     std::cout << "Scene 'Main' entered" << std::endl;
 }
@@ -45,9 +47,12 @@ void MainScene::update()
     _task.param = Chaos::GraphicX::RenderTaskParam_Line(
         { 50, 50 },
         { 200, 400 },
-        5.0F
+        5.0f,
+        1.0f,
+        { 0.0f,0.0f },
+        rotation_line
     );
-    _task.order = 0.0F;
+    _task.order = 0.0f;
     ::g_engine.renderer->pushTask(_task);
 
     _task.type = Chaos::GraphicX::RenderTaskType::Texture;
@@ -90,4 +95,6 @@ void MainScene::onHotkeyPressed(int virtualKey)
 void MainScene::onHotkeyPressed(std::string hotkeyName)
 {
     // std::cout << hotkeyName << std::endl;
+    if (hotkeyName == "rotation_line")
+        rotation_line += 45;
 }

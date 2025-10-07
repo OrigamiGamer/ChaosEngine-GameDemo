@@ -516,11 +516,14 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Renderer.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Texture.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Viewport.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/ActorMessage.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Engine.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/EngineStartupProperty.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/InternalDevice.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Scene.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicsEngine.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/System.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/Hotkey.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/KeyState.h \
@@ -558,6 +561,7 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Engine.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Scene.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Resource.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Source.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/System.cpp \
@@ -1228,6 +1232,8 @@ F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h:
 
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/tvout.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicsEngine.h:
+
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/system_error:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/typeinfo:
@@ -1646,11 +1652,15 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Renderer.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Texture.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/ActorMessage.h:
+
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Engine.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/EngineStartupProperty.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/Window.h:
 
@@ -1697,6 +1707,8 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Renderer.cpp
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Texture.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Resource.cpp:
 

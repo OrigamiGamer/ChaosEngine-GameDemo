@@ -540,7 +540,10 @@ CMakeFiles/debug.dir/game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/EngineStartupProperty.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Engine.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/ActorMessage.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Scene.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicsEngine.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GameObject.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/Actor.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Source.cpp \
@@ -572,6 +575,7 @@ CMakeFiles/debug.dir/game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Engine.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Scene.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp \
  F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\scenes/scenes.h \
  F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\sources.cpp \
