@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine"   // Please rewrite by yourself
+                "F:/Dev/Src/ChaosProjects/ChaosEngineCPP"
             ],
             "defines": [
                 "_DEBUG",

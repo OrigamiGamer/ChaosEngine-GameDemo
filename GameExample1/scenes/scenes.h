@@ -11,7 +11,7 @@ public:
     Chaos::GraphicX::Viewport viewport_1;
     Chaos::GraphicX::Viewport viewport_2;
 
-    float rotation_line=0.0f;
+    float rotationAngle = 0.0f;
 
     MainScene();
 

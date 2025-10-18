@@ -9,7 +9,8 @@ project(GameExample1 VERSION 0.1.0 LANGUAGES CXX)
 
 # includes
 
-set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP") # Please rewrite by yourself
+# Please locate this path according to the engine folder storaged on your PC.
+set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP")
 
 set(INCLUDE_LIST
     .

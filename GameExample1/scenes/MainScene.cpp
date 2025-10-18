@@ -11,8 +11,8 @@ MainScene::MainScene() : Scene("Main Scene") {}
 void MainScene::onEntered()
 {
     this->viewport_1.viewPos = { 0,0 };
-    this->viewport_1.viewSize = { 1280,720 };
     this->viewport_1.size = { (float)g_window.size.x,(float)g_window.size.y };
+    this->viewport_1.viewSize = this->viewport_1.size;
 
     ::g_renderer.SetCanvasSize(3000, 3000);
     ::g_renderer.registerViewport(this->viewport_1, "viewport_1");
@@ -21,7 +21,7 @@ void MainScene::onEntered()
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::D, "move_right");
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::W, "move_up");
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::S, "move_down");
-    g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::R, "rotation_line");
+    g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::R, "rotation");
 
 
     std::cout << "Scene 'Main' entered" << std::endl;
@@ -40,31 +40,28 @@ bool MainScene::onExiting()
 void MainScene::update()
 {
     this->viewport_1.size = { (float)g_window.size.x,(float)g_window.size.y };
+    this->viewport_1.viewSize = this->viewport_1.size;
+
+
 
     Chaos::GraphicX::RenderTask _task;
 
-    _task.type = Chaos::GraphicX::RenderTaskType::Line;
-    _task.param = Chaos::GraphicX::RenderTaskParam_Line(
-        { 50, 50 },
-        { 200, 400 },
-        5.0f,
-        1.0f,
-        { 0.0f,0.0f },
-        rotation_line
+    _task.type = Chaos::GraphicX::RenderTaskType::Rectangle;
+    _task.param = Chaos::GraphicX::RenderTaskParam_Rectangle(
+        { 500,500 },
+        { 100,100 },
+        true,
+        1,
+        { 32,32 },
+        1,
+        { -1,-1 },
+        rotationAngle,
+        { 1,1 }
     );
     _task.order = 0.0f;
     ::g_engine.renderer->pushTask(_task);
 
-    _task.type = Chaos::GraphicX::RenderTaskType::Texture;
-    for (size_t i = 0; i < 1000; i++) {
-        _task.param = Chaos::GraphicX::RenderTaskParam_Texture(
-            { (float)(50 + 70 * i),(float)(50 + 50 * i) },
-            ::g_renderer.getLoadedTexture("bilibili_blessed_night"),
-            { 1242 , 1863 }
-        );
-        _task.order = (float)i;
-        ::g_engine.renderer->pushTask(_task);
-    }
+
 
     static float _moveStep = 25;
 
@@ -95,6 +92,6 @@ void MainScene::onHotkeyPressed(int virtualKey)
 void MainScene::onHotkeyPressed(std::string hotkeyName)
 {
     // std::cout << hotkeyName << std::endl;
-    if (hotkeyName == "rotation_line")
-        rotation_line += 45;
+    if (hotkeyName == "rotation")
+        rotationAngle += 22.5f;
 }

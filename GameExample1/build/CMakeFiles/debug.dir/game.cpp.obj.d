@@ -531,6 +531,7 @@ CMakeFiles/debug.dir/game.cpp.obj: \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/wincodec.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/dcommon.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/GraphicManager.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Color.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Texture.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/RenderTaskParam.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/RenderTask.h \
@@ -568,6 +569,7 @@ CMakeFiles/debug.dir/game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/KeyStateBuffer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/Hotkey.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/GraphicManager.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Color.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Renderer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/RenderTaskParam.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Viewport.cpp \
