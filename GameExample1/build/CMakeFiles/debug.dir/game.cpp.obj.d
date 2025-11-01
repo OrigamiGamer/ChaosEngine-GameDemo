@@ -218,6 +218,9 @@ CMakeFiles/debug.dir/game.cpp.obj: \
  F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ranges_algo.h \
  F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/glue_algorithm_defs.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/System.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Log.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/OutputStream.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Logger.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/AudioX.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/OpenAL.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/libsndfile/sndfile.h \
@@ -553,6 +556,8 @@ CMakeFiles/debug.dir/game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/Buffer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/AudioPlayer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/Source.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/OutputStream.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/Logger.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/System.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Base.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Device.cpp \

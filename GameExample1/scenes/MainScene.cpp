@@ -23,6 +23,9 @@ void MainScene::onEntered()
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::S, "move_down");
     g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::R, "rotation");
 
+    this->texture_player = g_renderer.getLoadedTexture("player_1");
+
+
 
     std::cout << "Scene 'Main' entered" << std::endl;
 }
@@ -61,6 +64,21 @@ void MainScene::update()
     _task.order = 0.0f;
     ::g_engine.renderer->pushTask(_task);
 
+    _task.type = Chaos::GraphicX::RenderTaskType::Texture;
+    _task.param = Chaos::GraphicX::RenderTaskParam_Texture(
+        { 0,0 },
+        this->texture_player,
+        { 200,200 },
+        { 0,0 },
+        { -1,-1 },
+        1.0f,
+        { -1,-1 },
+        0.0f,
+        { 1.0f,1.0f }
+    );
+    _task.order = 0.0f;
+    ::g_engine.renderer->pushTask(_task);
+
 
 
     static float _moveStep = 25;
@@ -91,7 +109,17 @@ void MainScene::onHotkeyPressed(int virtualKey)
 
 void MainScene::onHotkeyPressed(std::string hotkeyName)
 {
+    Chaos::Log::OutputStream out;
+    out.push("Key Down -> ")->push(hotkeyName);
+    ::g_logger.print(out);
+    out.clear();
+
     // std::cout << hotkeyName << std::endl;
-    if (hotkeyName == "rotation")
+    if (hotkeyName == "rotation") {
         rotationAngle += 22.5f;
+        
+        out.push("rotated the line to ")->push(rotationAngle);
+        ::g_logger.print(out);
+    }
+
 }

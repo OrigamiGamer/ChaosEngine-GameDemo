@@ -19,6 +19,7 @@
 
 // Game
 
+Chaos::Log::Logger g_logger;
 Chaos::WindowX::Window g_window;
 Chaos::GraphicX::Renderer g_renderer;
 Chaos::InternalDevice::Stage g_stage;

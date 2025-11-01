@@ -12,6 +12,8 @@ public:
     Chaos::GraphicX::Viewport viewport_2;
 
     float rotationAngle = 0.0f;
+    Chaos::GraphicX::Texture* texture_player = nullptr;
+
 
     MainScene();
 

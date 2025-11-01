@@ -509,6 +509,7 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Class.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/Actor.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GameObject.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Color.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/GraphicManager.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/GraphicX.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/RenderTask.h \
@@ -522,6 +523,9 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/InternalDevice.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Scene.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Log.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Logger.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/OutputStream.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicsEngine.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/System.h \
@@ -553,6 +557,7 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Base.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Device.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Color.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/GraphicManager.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/RenderTaskParam.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Renderer.cpp \
@@ -561,6 +566,8 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Engine.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Scene.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/Logger.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/OutputStream.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Resource.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Source.cpp \
@@ -676,6 +683,8 @@ F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h:
 
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/winsmcrd.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Logger.h:
+
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bit:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/erase_if.h:
@@ -697,6 +706,8 @@ F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h:
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h:
 
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/ddeml.h:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Color.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h:
 
@@ -1434,6 +1445,8 @@ F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/commdlg.h:
 
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/winuser.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Log.h:
+
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/concurrencysal.h:
 
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/corecrt.h:
@@ -1660,6 +1673,8 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/EngineS
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/OutputStream.h:
+
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/Window.h:
@@ -1698,6 +1713,8 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/Sound.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Color.cpp:
+
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/GraphicManager.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/RenderTaskParam.cpp:
@@ -1707,6 +1724,10 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Renderer.cpp
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Texture.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/Logger.cpp:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/OutputStream.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp:
 

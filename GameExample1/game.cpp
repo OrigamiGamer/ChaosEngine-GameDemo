@@ -40,6 +40,7 @@ void GameInit()
 
     // load images
     g_renderer.loadTextureFromImageFile("resources/images/bilibili_blessed_night.png", "bilibili_blessed_night");
+    g_renderer.loadTextureFromImageFile("resources/images/player_1.png","player_1");
 
 
     // Audio Debug
