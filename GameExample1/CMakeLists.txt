@@ -36,4 +36,4 @@ link_libraries("D2D1.lib" "libglfw3.a" "OpenAL32.lib" "sndfile.lib")
 # targets
 
 add_executable(debug "game.cpp")
-set_target_properties(debug PROPERTIES OUTPUT_NAME "debug" SUFFIX ".exe")
+set_target_properties(debug PROPERTIES OUTPUT_NAME "game_debug" SUFFIX ".exe")

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/debug.dir/game.cpp.obj"
   "CMakeFiles/debug.dir/game.cpp.obj.d"
-  "debug.exe"
-  "debug.exe.manifest"
-  "debug.pdb"
-  "libdebug.dll.a"
+  "game_debug.exe"
+  "game_debug.exe.manifest"
+  "game_debug.pdb"
+  "libgame_debug.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

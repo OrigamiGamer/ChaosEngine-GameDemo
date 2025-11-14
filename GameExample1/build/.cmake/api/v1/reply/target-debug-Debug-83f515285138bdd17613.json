@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "debug.exe"
+			"path" : "game_debug.exe"
 		},
 		{
-			"path" : "debug.pdb"
+			"path" : "game_debug.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -144,7 +144,7 @@
 		"language" : "CXX"
 	},
 	"name" : "debug",
-	"nameOnDisk" : "debug.exe",
+	"nameOnDisk" : "game_debug.exe",
 	"paths" : 
 	{
 		"build" : ".",
