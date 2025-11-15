@@ -71,29 +71,29 @@ include CMakeFiles/debug.dir/flags.make
 CMakeFiles/debug.dir/codegen:
 .PHONY : CMakeFiles/debug.dir/codegen
 
-CMakeFiles/debug.dir/game.cpp.obj: CMakeFiles/debug.dir/flags.make
-CMakeFiles/debug.dir/game.cpp.obj: CMakeFiles/debug.dir/includes_CXX.rsp
-CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/game.cpp
-CMakeFiles/debug.dir/game.cpp.obj: CMakeFiles/debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/debug.dir/game.cpp.obj"
-	F:\Dev\Env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/debug.dir/game.cpp.obj -MF CMakeFiles\debug.dir\game.cpp.obj.d -o CMakeFiles\debug.dir\game.cpp.obj -c F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\game.cpp
+CMakeFiles/debug.dir/Game/Game.cpp.obj: CMakeFiles/debug.dir/flags.make
+CMakeFiles/debug.dir/Game/Game.cpp.obj: CMakeFiles/debug.dir/includes_CXX.rsp
+CMakeFiles/debug.dir/Game/Game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/Game/Game.cpp
+CMakeFiles/debug.dir/Game/Game.cpp.obj: CMakeFiles/debug.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/debug.dir/Game/Game.cpp.obj"
+	F:\Dev\Env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/debug.dir/Game/Game.cpp.obj -MF CMakeFiles\debug.dir\Game\Game.cpp.obj.d -o CMakeFiles\debug.dir\Game\Game.cpp.obj -c F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\Game\Game.cpp
 
-CMakeFiles/debug.dir/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/debug.dir/game.cpp.i"
-	F:\Dev\Env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\game.cpp > CMakeFiles\debug.dir\game.cpp.i
+CMakeFiles/debug.dir/Game/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/debug.dir/Game/Game.cpp.i"
+	F:\Dev\Env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\Game\Game.cpp > CMakeFiles\debug.dir\Game\Game.cpp.i
 
-CMakeFiles/debug.dir/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/debug.dir/game.cpp.s"
-	F:\Dev\Env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\game.cpp -o CMakeFiles\debug.dir\game.cpp.s
+CMakeFiles/debug.dir/Game/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/debug.dir/Game/Game.cpp.s"
+	F:\Dev\Env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Dev\Src\ChaosProjects\ChaosEngine-GameDemo\GameExample1\Game\Game.cpp -o CMakeFiles\debug.dir\Game\Game.cpp.s
 
 # Object files for target debug
 debug_OBJECTS = \
-"CMakeFiles/debug.dir/game.cpp.obj"
+"CMakeFiles/debug.dir/Game/Game.cpp.obj"
 
 # External object files for target debug
 debug_EXTERNAL_OBJECTS =
 
-game_debug.exe: CMakeFiles/debug.dir/game.cpp.obj
+game_debug.exe: CMakeFiles/debug.dir/Game/Game.cpp.obj
 game_debug.exe: CMakeFiles/debug.dir/build.make
 game_debug.exe: CMakeFiles/debug.dir/linkLibs.rsp
 game_debug.exe: CMakeFiles/debug.dir/objects1.rsp

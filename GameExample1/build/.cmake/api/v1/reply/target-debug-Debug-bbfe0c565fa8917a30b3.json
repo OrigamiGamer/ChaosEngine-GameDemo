@@ -167,7 +167,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "game.cpp",
+			"path" : "Game/Game.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

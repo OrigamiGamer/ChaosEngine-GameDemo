@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/build",
-  "command": "F:\\Dev\\Env\\mingw64\\bin\\g++.exe  @CMakeFiles/debug.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\debug.dir\\game.cpp.obj -c F:\\Dev\\Src\\ChaosProjects\\ChaosEngine-GameDemo\\GameExample1\\game.cpp",
-  "file": "F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/game.cpp",
-  "output": "CMakeFiles/debug.dir/game.cpp.obj"
+  "command": "F:\\Dev\\Env\\mingw64\\bin\\g++.exe  @CMakeFiles/debug.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\debug.dir\\Game\\Game.cpp.obj -c F:\\Dev\\Src\\ChaosProjects\\ChaosEngine-GameDemo\\GameExample1\\Game\\Game.cpp",
+  "file": "F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/Game/Game.cpp",
+  "output": "CMakeFiles/debug.dir/Game/Game.cpp.obj"
 }
 ]

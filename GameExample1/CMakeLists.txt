@@ -36,5 +36,5 @@ link_libraries("libChaosEngine.lib" "glfw3.lib" "D2D1.lib" "OpenAL32.lib" "sndfi
 
 # targets
 
-add_executable(debug "game.cpp")
+add_executable(debug "Game/Game.cpp")
 set_target_properties(debug PROPERTIES OUTPUT_NAME "game_debug" SUFFIX ".exe")
