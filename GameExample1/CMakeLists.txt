@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
+project(GameExample1 VERSION 0.1.0 LANGUAGES C CXX)
+
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
-
-project(GameExample1 VERSION 0.1.0 LANGUAGES CXX)
 
 
 
@@ -26,10 +26,11 @@ include_directories(${INCLUDE_LIST})
 set(LINK_LIST
     .
     "${CHAOS_ENGINE_ROOT}/ChaosEngine/ExternalLibrary"
+    "${CHAOS_ENGINE_ROOT}/out/build/GCC"
 )
 link_directories(${LINK_LIST})
 
-link_libraries("D2D1.lib" "libglfw3.a" "OpenAL32.lib" "sndfile.lib")
+link_libraries("libChaosEngine.lib" "glfw3.lib" "D2D1.lib" "OpenAL32.lib" "sndfile.lib")
 
 
 

@@ -109,7 +109,7 @@ void MainScene::onHotkeyPressed(int virtualKey)
 
 void MainScene::onHotkeyPressed(std::string hotkeyName)
 {
-    Chaos::Log::OutputStream out;
+    Chaos::Log::OutputStream out("INFO");
     out.push("Key Down -> ")->push(hotkeyName);
     ::g_logger.print(out);
     out.clear();
@@ -117,8 +117,8 @@ void MainScene::onHotkeyPressed(std::string hotkeyName)
     // std::cout << hotkeyName << std::endl;
     if (hotkeyName == "rotation") {
         rotationAngle += 22.5f;
-        
-        out.push("rotated the line to ")->push(rotationAngle);
+
+        out.push("the line was rotated to ")->push(rotationAngle);
         ::g_logger.print(out);
     }
 

@@ -525,6 +525,7 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Log.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Logger.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/LoggerManager.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/OutputStream.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicsEngine.h \
@@ -567,6 +568,7 @@ CMakeFiles/debug.dir/game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Scene.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/Logger.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/LoggerManager.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/OutputStream.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Resource.cpp \
@@ -1673,6 +1675,8 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/EngineS
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/LoggerManager.h:
+
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/OutputStream.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h:
@@ -1726,6 +1730,8 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Texture.cpp:
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/Logger.cpp:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/LoggerManager.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Log/OutputStream.cpp:
 
