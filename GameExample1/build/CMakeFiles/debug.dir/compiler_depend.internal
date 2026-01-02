@@ -514,9 +514,10 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sample.h
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sound.h
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Class.h
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Component.h
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Timer.h
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/Actor.h
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Component.h
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/GUI.h
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Timer.h
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GameObject.h
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Color.h
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/GraphicManager.h
@@ -565,9 +566,10 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Sample.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Sound.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Base.cpp
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Component/Timer.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Device.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Component.cpp
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Timer.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Color.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/GraphicManager.cpp
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/RenderTaskParam.cpp

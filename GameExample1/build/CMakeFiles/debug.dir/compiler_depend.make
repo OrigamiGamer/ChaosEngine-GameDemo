@@ -513,9 +513,10 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-Gam
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sample.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sound.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Class.h \
-  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Component.h \
-  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Timer.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/Actor.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Component.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/GUI.h \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Timer.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GameObject.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Color.h \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/GraphicManager.h \
@@ -564,9 +565,10 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: F:/Dev/Src/ChaosProjects/ChaosEngine-Gam
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Sample.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Sound.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Base.cpp \
-  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Component/Timer.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Device.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Component.cpp \
+  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Timer.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Color.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/GraphicManager.cpp \
   F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/RenderTaskParam.cpp \
@@ -1146,6 +1148,8 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/System.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unicode-data.h:
 
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Component.cpp:
+
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unique_ptr.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/uses_allocator.h:
@@ -1165,6 +1169,8 @@ F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-ming
 F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/dxgitype.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/version.h:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Timer.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cerrno:
 
@@ -1203,8 +1209,6 @@ F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cwctype:
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/debug/assertions.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/debug/debug.h:
-
-F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Timer.h:
 
 F:/Dev/Env/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ext/atomicity.h:
 
@@ -1670,9 +1674,11 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Channel.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sample.h:
 
-F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Component.h:
-
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/Actor.h:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Component.h:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/GUI.h:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Color.h:
 
@@ -1730,9 +1736,9 @@ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/AudioManager.cp
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/AudioPlayer.cpp:
 
-F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Component/Timer.cpp:
-
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp:
+
+F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Timer.cpp:
 
 F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Color.cpp:
 

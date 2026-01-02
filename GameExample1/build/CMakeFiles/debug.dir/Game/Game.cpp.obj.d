@@ -549,10 +549,11 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Scene.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Physics/Physics.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Physics/PhysicsEngine.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Component.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Timer.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GameObject.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/Actor.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/GUI.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Component.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GUI/Timer.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Source.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/OpenAL.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/AudioEngine.cpp \
@@ -587,7 +588,8 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Scene.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Physics/PhysicsEngine.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Component/Timer.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Component.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/GUI/Timer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/Game/Class/Class.h \
  F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/Game/Class/Scene/Scene.h \
