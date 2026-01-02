@@ -17,6 +17,8 @@
 
 
 
+
+
 // Game
 
 int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd);
@@ -25,7 +27,7 @@ namespace Game {
 
     Chaos::Log::Logger g_logger;
     Chaos::WindowX::Window g_window;
-    Chaos::GraphicX::Renderer g_renderer;
+    Chaos::Graphics::Renderer g_renderer;
     Chaos::InternalDevice::Stage g_stage;
     Chaos::InternalDevice::Engine g_engine;
 

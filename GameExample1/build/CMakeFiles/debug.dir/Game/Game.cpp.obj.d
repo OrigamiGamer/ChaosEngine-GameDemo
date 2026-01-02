@@ -222,18 +222,18 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/OutputStream.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/Logger.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Log/LoggerManager.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/AudioX.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Audio.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/OpenAL.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/libsndfile/sndfile.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/sys/types.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/raw/al.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Audio/OpenAL/raw/alc.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/AudioManager.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/AudioPlayer.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/Sound.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/Sample.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/Channel.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/AudioX/ChannelGroup.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/AudioManager.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/AudioPlayer.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sound.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Sample.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/Channel.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Audio/ChannelGroup.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/WindowX.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/GLFW/glfw3.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/GL/gl.h \
@@ -508,8 +508,8 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/HotKey.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/WindowProperty.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/WindowX/Window.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/GraphicX.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Graphic/D2D/D2D.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Graphics.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/ExternalLibrary/Graphics/D2D/D2D.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/windows.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/d2d1.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/dcommon.h \
@@ -534,21 +534,21 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/dwrite.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/wincodec.h \
  F:/Dev/Env/mingw64/x86_64-w64-mingw32/include/dcommon.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/GraphicManager.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Color.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Texture.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/RenderTaskParam.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/RenderTask.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Renderer.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GraphicX/Viewport.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/GraphicManager.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Color.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Texture.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/RenderTaskParam.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/RenderTask.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Renderer.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Graphics/Viewport.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/InternalDevice.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/EngineStartupProperty.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Engine.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Stage.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/ActorMessage.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/InternalDevice/Scene.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicX.h \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/PhysicX/PhysicsEngine.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Physics/Physics.h \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Physics/PhysicsEngine.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Component.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/Component/Timer.h \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Class/GameObject/GameObject.h \
@@ -566,27 +566,27 @@ CMakeFiles/debug.dir/Game/Game.cpp.obj: \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Base.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Device.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Resource.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/AudioManager.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/Sound.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/Sample.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/Channel.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/ChannelGroup.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/AudioX/AudioPlayer.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/AudioManager.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Sound.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Sample.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/Channel.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/ChannelGroup.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Audio/AudioPlayer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/WindowManager.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/WindowProperty.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/Window.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/KeyStateBuffer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/WindowX/Hotkey.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/GraphicManager.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Color.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Renderer.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/RenderTaskParam.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Viewport.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GraphicX/Texture.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/GraphicManager.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Color.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Renderer.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/RenderTaskParam.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Viewport.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Graphics/Texture.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Engine.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Stage.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/InternalDevice/Scene.cpp \
- F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/PhysicX/PhysicsEngine.cpp \
+ F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Physics/PhysicsEngine.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/Component/Timer.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngineCPP/ChaosEngine/Source/GameObject/Actor.cpp \
  F:/Dev/Src/ChaosProjects/ChaosEngine-GameDemo/GameExample1/Game/Class/Class.h \

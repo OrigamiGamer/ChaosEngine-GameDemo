@@ -45,10 +45,10 @@ namespace Game::Scene {
 
 
 
-        Chaos::GraphicX::RenderTask _task;
+        Chaos::Graphics::RenderTask _task;
 
-        _task.type = Chaos::GraphicX::RenderTaskType::Rectangle;
-        _task.param = Chaos::GraphicX::RenderTaskParam_Rectangle(
+        _task.type = Chaos::Graphics::RenderTaskType::Rectangle;
+        _task.param = Chaos::Graphics::RenderTaskParam_Rectangle(
             { 500,500 },
             { 100,100 },
             true,
@@ -62,8 +62,8 @@ namespace Game::Scene {
         _task.order = 0.0f;
         g_engine.renderer->pushTask(_task);
 
-        _task.type = Chaos::GraphicX::RenderTaskType::Texture;
-        _task.param = Chaos::GraphicX::RenderTaskParam_Texture(
+        _task.type = Chaos::Graphics::RenderTaskType::Texture;
+        _task.param = Chaos::Graphics::RenderTaskParam_Texture(
             { 0,0 },
             this->texture_player,
             { 200,200 },
