@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 # includes
 
 # Please locate this path according to the engine folder storaged on your PC.
-set(CHAOS_ENGINE_ROOT "F:/Dev/Src/ChaosProjects/ChaosEngineCPP")
+set(CHAOS_ENGINE_ROOT "D:/Dev/Src/ChaosProjects/ChaosEngineCPP")
 
 set(INCLUDE_LIST
     .
@@ -31,6 +31,13 @@ set(LINK_LIST
 link_directories(${LINK_LIST})
 
 link_libraries("libChaosEngine.lib" "glfw3.lib" "D2D1.lib" "OpenAL32.lib" "sndfile.lib")
+
+file(COPY
+    "${CHAOS_ENGINE_ROOT}/ChaosEngine/Dependences/OpenAL32.dll"
+    "${CHAOS_ENGINE_ROOT}/ChaosEngine/Dependences/sndfile.dll"
+    "./resources"
+    DESTINATION "."
+)
 
 
 

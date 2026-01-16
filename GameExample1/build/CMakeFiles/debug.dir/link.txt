@@ -1,3 +1,0 @@
-"F:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\debug.dir/objects.a
-F:\Dev\Env\mingw64\bin\ar.exe qc CMakeFiles\debug.dir/objects.a @CMakeFiles\debug.dir\objects1.rsp
-F:\Dev\Env\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\debug.dir/objects.a -Wl,--no-whole-archive -o game_debug.exe -Wl,--out-implib,libgame_debug.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\debug.dir\linkLibs.rsp
