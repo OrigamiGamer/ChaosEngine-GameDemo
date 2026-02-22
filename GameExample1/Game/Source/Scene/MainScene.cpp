@@ -25,6 +25,10 @@ namespace Game::Scene {
         g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::S, "move_down");
         g_window.keyStateBuffer.addHotKey(Chaos::WindowX::VirtualKey::R, "rotation");
 
+        // load images
+        // g_renderer.loadTextureFromImageFile("resources/images/bilibili_blessed_night.png", "bilibili_blessed_night");
+        g_renderer.loadTextureFromImageFile("resources/images/player_1.png", "player_1");
+        
         this->texture_player = g_renderer.getLoadedTexture("player_1");
     }
 

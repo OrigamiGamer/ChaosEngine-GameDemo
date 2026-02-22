@@ -1,21 +1,6 @@
 #pragma once
 
-
-
-// STL
-
-#include <iostream>
-#include <memory>
-#include <vector>
-
-
-
-// ChaosEngine
-
-#include "ChaosEngine/Class/Class.h"
-#include "ChaosEngine/Source/Source.cpp"
-
-
+#include "Game/Class/Class.h"
 
 
 
@@ -36,6 +21,8 @@ namespace Game {
     void GameInit();
 
     bool GameExit();
+
+    bool onWindowClose();
 
 }
 

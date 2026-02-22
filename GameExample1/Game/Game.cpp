@@ -34,20 +34,19 @@ namespace Game {
 
     void GameInit()
     {
-        g_window.initialize();
+        // initialize engine devices
+        Chaos::WindowX::WindowStartupProperty _windowProp;
+        _windowProp.onWindowClose = &onWindowClose;
+        g_window.initialize(_windowProp);
 
-        g_renderer.initialize(g_window);
         g_stage.registerWindow(g_window);
+        g_renderer.initialize(g_window);
 
         g_engine.registerStage(&g_stage);
         g_engine.registerRenderer(&g_renderer);
 
         g_stage.registerScene(Game::Scene::mainScene);
         g_stage.switchScene("MainScene");
-
-        // load images
-        g_renderer.loadTextureFromImageFile("resources/images/bilibili_blessed_night.png", "bilibili_blessed_night");
-        g_renderer.loadTextureFromImageFile("resources/images/player_1.png", "player_1");
 
     }
 
@@ -56,6 +55,13 @@ namespace Game {
     bool GameExit()
     {
 
+        return true;
+    }
+
+
+
+    bool onWindowClose()
+    {
         return true;
     }
 
